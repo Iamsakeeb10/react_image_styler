@@ -1,0 +1,58 @@
+:root {
+  --base: #ffc600;
+}
+
+/*
+    misc styles, nothing to do with CSS variables
+  */
+
+.hl {
+  color: var(--base);
+}
+
+img {
+  max-width: 50%;
+  border-radius: 8px;
+  background-size: cover;
+  object-fit: cover;
+}
+
+body {
+  text-align: center;
+  background: #193549;
+  color: white;
+  font-family: "helvetica neue", sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+
+input {
+  width: 100px;
+}
+
+#base {
+  margin-right: 10px;
+}
+
+@media (max-width: 800px) {
+  img {
+    max-width: 75%;
+  }
+
+  h2 {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+
+@media (min-width: 1200px) {
+  img {
+    height: 800px;
+  }
+}
